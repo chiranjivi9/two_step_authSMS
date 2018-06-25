@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-migrate = "*"
+flask-script = "*"
+flask-login = "*"
+flask-wtf = "*"
+flask-bootstrap = "*"
+flask-session = "*"
+python-firebase = "*"
+twilio = "*"
+passlib = "*"
+bcrypt = "*"
+phonenumbers = "*"
+pysocks = "*"
+"unittest2" = "*"
+coverage = "*"
+xmlunittest = "*"
+lxml = "*"
+mock = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
